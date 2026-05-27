@@ -11,33 +11,36 @@
 <body>
 
 
-    <header>
-        <p></p>
-        <nav>
-            <a href="">À propos</a>
-            <a href="">Projets</a>
-            <a href="">Contacts</a>
+    <header class="pb-32 flex space-between pt-32px">
+
+        <p class="police-Raleway ml-32">Portfolio</p>
+
+        <nav class="flex gap-32 mr-32">
+            <a href="" class="police-Raleway txt-decoration black">À propos</a>
+            <a href="" class="police-Raleway txt-decoration black">Projets</a>
+            <a href="" class="police-Raleway txt-decoration black">Contacts</a>
         </nav>
 
     </header>
 
     <main>
 
-        <section> <!-- Présentation -->
+        <section class="flex mt-128 pb-128"> <!-- Présentation -->
 
-            <div>
-                <p>étudiant en informatique</p>
-                <h1>Salut, moi c’est Raphaël Royer</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae praesentium sint quos
-                    consectetur corporis, voluptatibus sunt natus? Ut, corrupti ipsum quidem perspiciatis nesciunt
-                    nostrum doloremque modi. Eligendi necessitatibus voluptatibus labore.</p>
+            <div class="w-20 pl-64">
+                <p class="police-Nunito orange pb-16">étudiant en informatique</p>
+                <h1 class="police-playfair pb-32">Salut, moi c’est Raphaël Royer</h1>
+                <p class="police-Nunito pb-32">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+                    praesentium sint quos labore.</p>
 
-                <div>
-                    <a href="">Mes projets</a>
-                    <a href="">Contact</a>
+                <div class="flex space-between">
+
+                    <a href="" class="txt-decoration police-roboto btn-projets black">Mes projets</a>
+
+                    <a href="" class="txt-decoration police-roboto btn-contact">Contact</a>
                 </div>
 
-                <img src="" alt="">
+                <img src="asset/yellow-bg.png" alt="" class="position w-40">
 
 
             </div>
@@ -52,38 +55,60 @@
 
 
 
+        <!-- Projets -->
+        <h2 class="txt-center pb-32">Projets</h2>
+
+        <section class="container-1000  flex space-between align-center">
 
 
-        <section> <!-- Projets -->
 
-            <h2>Projets</h2>
+            <div class="flex w-50 pl-32">
+                <h3 class="pb-32">Titre du projet</h3>
+                <p class="pb-32 police-Nunito">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                </p>
+                <a href="" class="btn-voirprojet">Voir le projet</a>
 
-            <div>
-                <h3></h3>
-                <p></p>
-                <a href=""></a>
-                <img src="" alt="">
-            </div>
-
-
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
-                <a href=""></a>
 
             </div>
 
+            <img src="asset/image portfolio 1.png" alt="" class="w-40">
 
+        </section>
 
-            <div>
-                <h3></h3>
-                <p></p>
-                <a href=""></a>
-                <img src="" alt="">
+        <section class="container-1000 flex space-between align-center pt-32px">
+
+            <img src="asset/image portfolio 2.png" alt="" class="w-40">
+
+            <div class="flex w-50">
+
+                <h3 class="pb-32">Titre du projet</h3>
+                <p class="pb-32 police-Nunito">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                </p>
+                <a href="" class="btn-voirprojet">Voir le projet</a>
+
             </div>
 
         </section>
+
+
+        <section class="container-1000 flex space-between align-center pt-32px pb-32">
+
+            <div class="flex w-50">
+                <h3 class="pb-32">Titre du projet</h3>
+                <p class="pb-32 police-Nunito">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                </p>
+                <a href="" class="btn-voirprojet">Voir le projet</a>
+
+            </div>
+
+            <img src="asset/image portfolio 3.png" alt="" class="w-50">
+
+        </section>
+
+
 
 
         <section> <!-- Barre jaune -->
@@ -92,28 +117,30 @@
 
 
 
-        <section> <!-- Mon parcours -->
+        <section class="pb-128"> <!-- Mon parcours -->
 
-            <h2>Mon parcours</h2>
+            <h2 class="txt-center pb-64">Mon parcours</h2>
 
-            <div> <!-- grosse div -->
+            <div class="flex space-between container-1000"> <!-- grosse div -->
 
-                <div>
-                    <h4></h4>
-                    <p></p>
-                    <p></p>
+                <div class="w-30">
+                    <h4 class="police-worksans pb-16 taille-txt-25">2022-2025</h4>
+                    <p class="police-worksans pb-16 gras taille-txt-16">Bac pro Production Graphiques</p>
+                    <p class="police-worksans">Eleve au Lycée étienne Mimard en Industrie Graphiques spécialité Production Graphiques</p>
                 </div>
 
-                <div>
-                    <h4></h4>
-                    <p></p>
-                    <p></p>
+
+                <div class="w-30">
+                    <h4 class="police-worksans pb-16 taille-txt-25">2026</h4>
+                    <p class="police-worksans pb-16 taille-txt-16 gras">Formation la toile informatique</p>
+                    <p class="police-worksans">fyhrsnrsfrnsrn</p>
                 </div>
 
-                <div>
-                    <h4></h4>
-                    <p></p>
-                    <p></p>
+
+                <div class="w-30">
+                    <h4 class="police-worksans pb-16 taille-txt-25">2026</h4>
+                    <p class="police-worksans pb-16 taille-txt-16 gras">rthrshsrsrhsrh</p>
+                    <p class="police-worksans">fshshsrtsrthrthsrn</p>
                 </div>
 
 
@@ -128,12 +155,13 @@
 
     </main>
 
-<footer>
-    <p></p>
+    <footer>
+        
+        <p class="police-worksans">2026-Royer Raphaël</p>
 
-    <img src="" alt="">
-    
-</footer>
+        <img src="asset/Vector.png" alt="" class="">
+
+    </footer>
 
 
 </body>

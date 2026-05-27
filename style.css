@@ -4,6 +4,17 @@
 
 
 
+*{
+      padding: 0;
+      margin: 0;
+
+}
+
+
+
+
+
+
 
 .police-Raleway{
   font-family: "Raleway", sans-serif;
@@ -22,7 +33,309 @@
 
 }
 
+.police-playfair{
+        font-family: "Playfair", serif;
 
+}
+
+
+
+.police-roboto{
+        font-family: "Roboto", sans-serif;
+
+}
+
+
+.btn-projets{
+      display: inline-block;
+      padding: 15px 25px;
+      background-color: #FDC435;
+      border-radius: 10px;
+
+}
+
+
+
+.btn-contact{
+      display: inline-block;
+      padding: 15px 20px;
+      color: black;
+      border-radius: 10px;
+      background-color: none;
+      border : 2px solid black;
+
+}
+
+
+.btn-voirprojet{
+      display: inline-block;
+      color: black;
+      border : 2px solid black;
+      background-color: none;
+      border-radius: 35px;
+      padding: 15px 20px;
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+}
+
+
+
+
+
+.position{
+      position: absolute;
+      top: 0;
+      right: 0;
+}
+
+
+
+.container-footer{
+  position: relative;
+}
+
+.container-img{
+  display: block;
+  width: 100%;
+}
+
+.prenom{
+  position: absolute;
+  bottom: 20px;        /* distance depuis le bas de l'image */
+  left: 50%;
+  transform: translateX(-50%);  /* centrage horizontal */
+  color: white;        /* ou la couleur souhaitée */
+}
+
+
+
+header{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 90;
+}
+
+
+
+
+.orange{
+      color: #FDC435;
+}
+
+
+
+.black{
+      color: black;
+}
+
+.bg-grey{
+      background-color: #cecece;
+}
+
+
+.trait{
+    height: 2px;
+    width: 72px;
+    background-color:#FBD784 ;
+
+}
+
+
+.txt-decoration{
+      text-decoration: none;
+}
+
+
+
+.gras{
+      font-weight: 600;
+}
+
+
+.taille-txt-16{
+      font-size: 16px;
+}
+
+
+.taille-txt-25{
+      font-size: 25px;
+}
+
+
+
+
+.flex{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+
+.space-between{
+    justify-content: space-between;
+}
+
+
+.justify-center{
+    justify-content: center;
+}
+
+/*alignement vertical*/
+.align-center{
+    align-items: center;
+}
+
+
+.txt-center{
+      text-align: center;
+}
+
+
+
+.gap-8{
+    gap: 8px;
+}
+
+
+.gap-16{
+    gap: 16px;
+}
+
+
+.gap-32{
+    gap: 32px;
+}
+
+
+
+/*margin et padding*/
+
+
+
+.mr-32{
+      margin-right: 64px;
+}
+
+
+.ml-32{
+      margin-left: 32px;
+}
+
+
+.mt-16{
+    margin-bottom: 16px;
+}
+
+
+
+.mt-32{
+    margin-bottom: 32px;
+}
+
+
+.mt-16{
+    margin-top: 16px;
+}
+
+
+
+.mt-128{
+    margin-top: 128px;
+}
+
+.pt-16{
+    padding: 16px;
+}
+
+
+
+.pl-32{
+      padding-left: 32px;
+}
+
+
+.pl-64{
+      padding-left: 64px;
+}
+
+
+
+
+.pt-32px{
+      padding-top: 32px;
+}
+
+
+
+.pt-128{
+    padding-top: 128px;
+}
+
+
+.pb-16{
+      padding-bottom: 16px;
+}
+
+
+
+.pb-32{
+      padding-bottom: 32px;
+}
+
+
+.pb-64{
+      padding-bottom: 64px;
+}
+
+
+
+.pb-128{
+      padding-bottom: 128px;
+}
+
+
+
+.w-10{
+      width: 10%;
+}
+
+.w-20{
+      width: 20%;
+}
+
+
+.w-30{
+      width: 30%;
+}
+
+
+
+
+.w-40{
+      width: 40%;
+}
+
+.w-50{
+      width: 50%;
+}
+
+
+
+
+.container-1000{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.card{
+      width: 30%;
+
+}
 
 
 
